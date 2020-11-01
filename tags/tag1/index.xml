@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag1 on Jamesjin63</title>
+    <link>https://jamesjin63.github.io/tags/tag1/</link>
+    <description>Recent content in tag1 on Jamesjin63</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2020 17:44:54 +0800</lastBuildDate><atom:link href="https://jamesjin63.github.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Just Set Up My Own blogs</title>
+      <link>https://jamesjin63.github.io/post/readmeoa/</link>
+      <pubDate>Sun, 01 Nov 2020 17:44:54 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/readmeoa/</guid>
+      <description>灰度发布（又名金丝雀发布）介绍 当应用上线以后，运维面临的一大挑战是如何能够在不影响已上线业务的情况下进行升级。做过产品的同学都清楚，不管在发</description>
+    </item>
+    
+  </channel>
+</rss>
