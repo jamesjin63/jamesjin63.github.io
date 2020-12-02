@@ -15,15 +15,15 @@
     
 
     
-    <meta name="title" content="罪与恶的开始" />
-    <meta property="og:title" content="罪与恶的开始" />
-    <meta property="twitter:title" content="罪与恶的开始" />
+    <meta name="title" content="生存分析评分系统" />
+    <meta property="og:title" content="生存分析评分系统" />
+    <meta property="twitter:title" content="生存分析评分系统" />
     
 
     
-    <meta name="description" content="纪念深爱的《Despacito》">
-    <meta property="og:description" content="纪念深爱的《Despacito》" />
-    <meta property="twitter:description" content="纪念深爱的《Despacito》" />
+    <meta name="description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。">
+    <meta property="og:description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。" />
+    <meta property="twitter:description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>罪与恶的开始-郑金鑫的博客 | Zheng Jinxin Blog</title>
+    <title>生存分析评分系统-郑金鑫的博客 | Zheng Jinxin Blog</title>
 
-    <link rel="canonical" href="/post/1010_mylife/">
+    <link rel="canonical" href="/post/1130-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -165,24 +165,20 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/despacito" title="Despacito">
-                            Despacito
-                        </a>
-                        
-                        <a class="tag" href="/tags/sea" title="Sea">
-                            Sea
+                        <a class="tag" href="/tags/cox-model" title="Cox-model">
+                            Cox-model
                         </a>
                         
                     </div>
-                    <h1>罪与恶的开始</h1>
-                    <h2 class="subheading">2019-2020</h2>
+                    <h1>生存分析评分系统</h1>
+                    <h2 class="subheading">使用机器学习计算评分</h2>
                     <span class="meta">
                         Posted by 
                         
-                                 --Jamesjin63--
+                                 Jamesjin63
                          
                         on 
-                        Saturday, October 10, 2020
+                        Sunday, November 29, 2020
                         
                         
                         
@@ -214,41 +210,32 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#2019">2019</a></li>
-        <li><a href="#2020">2020</a></li>
-        <li><a href="#2021">2021</a></li>
-        <li><a href="#参考">参考</a></li>
+        <li><a href="#临床试验设计">临床试验设计</a></li>
+        <li><a href="#核心">核心</a></li>
+        <li><a href="#参考文献">参考文献：</a></li>
       </ul>
     </li>
   </ul>
 </nav>
                 
-                <h2 id="2019">2019</h2>
-<p>2019注定是个不平静的年份，承载了许多，更多的是让你来承受。</p>
-<p>&ldquo;ANYTHING THAN CAN GO WRONG WILL GO WRONG&rdquo;  &ndash;MURPHY&rsquo;S LAW
-
-  <img src="/media/311602330385_.pic.jpg" alt="old day">
-
-
-说过会回来，其实不用这样说，因为一开始就是错的。
-终究是错付了一生，2年太短了</p>
-<h2 id="2020">2020</h2>
-<p>回归的2020是2019的恶性循环。在这个成人的世界。需要的是不断努力，但是你的努力终究还是比不了内心的不安。短暂的平静又要回到痛苦。
-
-  <img src="/media/321602330424_.pic.jpg" alt="old day">
-
-</p>
-<h2 id="2021">2021</h2>
-<p>会是新的开始么？希望都是开始，但不会结束。
-
-  <img src="/media/331602330442_.pic.jpg" alt="old day">
-
-</p>
-<h2 id="参考">参考</h2>
+                <h2 id="临床试验设计">临床试验设计</h2>
+<p><a href="https://mp.weixin.qq.com/s/0gdGZce7Jbprlygwn5MJCQ">院外心脏骤停患者神经功能不良预后的评分系统的开发与验证</a>
+<code>doi:10.1093/eurheartj/ehaa570</code>
+本研究是针对院外心脏骤停（OOHCA）事件，进行早期预测患者结局有助于医师进行临床决策。虽然针对该类患者预后预测已有CAHP及TTM评分管理系统，但两种评分系统变量组成复杂，紧急状态下使用受限。
+结论：MIRACLE2评分运用简单的入院临床指标，为院外心脏骤停的患者不良神经功能结局提供了早期准确预测，具有良好的临床使用价值。</p>
+<ol>
+<li>收集373例患者，进行临床指标分析，其生存预后效果。建立MIRACLE2评分系统。</li>
+<li>在外部队列，进行验证MIRACLE2评分系统。</li>
+</ol>
+<h2 id="核心">核心</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">采用机器学习方法，建立预测模型，导入患者信息，shiny显示结果。摈弃繁杂的评分计算，考虑变量的非线性关系。
+</code></pre></div><h2 id="参考文献">参考文献：</h2>
 <ul>
-<li><a href="">人生物语</a></li>
-<li><a href="">这该死的地方</a></li>
-<li><a href="">那晚霞</a></li>
+<li>Zhang, XP; Gao, YZ; Chen, ZH; et al. An Eastern Hepatobiliary Surgery Hospital/Portal Vein Tumor Thrombus Scoring System as an Aid to Decision Making on Hepatectomy for Hepatocellular Carcinoma Patients With Portal Vein Tumor Thrombus: A Multicenter Study. Hepatology.2019,69(5):2076-2090</li>
+<li>Nilesh Pareek, Peter Kordis, Nicholas Beckley-Hoelscher, Dominic Pimenta, Spela Tadel Kocjancic, Anja Jazbec, Joanne Nevett, Rachael Fothergill, Sundeep Kalra, Tim Lockie, Ajay M Shah, Jonathan Byrne, Marko Noc, Philip MacCarthy, A practical risk score for early prediction of neurological outcome after out-of-hospital cardiac arrest: MIRACLE2, European Heart Journal, , ehaa570, <a href="https://doi.org/10.1093/eurheartj/ehaa570">https://doi.org/10.1093/eurheartj/ehaa570</a></li>
+<li>Moons KG, Altman DG, Reitsma JB, Ioannidis JP, Macaskill P, Steyerberg EW, Vickers AJ, Ransohoff DF, Collins GS. Transparent Reporting of a multivariable prediction model for Individual Prognosis or Diagnosis (TRIPOD): explanation and elaboration. Ann Intern Med. 2015 Jan 6;162(1):W1-73. doi: 10.7326/M14-0698. PMID: 25560730.</li>
+<li><a href="https://www.sohu.com/a/299158313_489312">基于Cox回归模型构建疾病风险评分工具</a></li>
+<li>Zhang XP, Gao YZ, Chen ZH, Chen MS, Li LQ, Wen TF, Xu L, Wang K, Chai ZT, Guo WX, Shi J, Xie D, Wu MC, Yee Lau W, Cheng SQ. An Eastern Hepatobiliary Surgery Hospital/Portal Vein Tumor Thrombus Scoring System as an Aid to Decision Making on Hepatectomy for Hepatocellular Carcinoma Patients With Portal Vein Tumor Thrombus: A Multicenter Study. Hepatology. 2019 May;69(5):2076-2090. doi: 10.1002/hep.30490. Epub 2019 Mar 12. PMID: 30586158.</li>
 </ul>
 
 
@@ -258,13 +245,13 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/media/1010_mylife/" data-toggle="tooltip" data-placement="top" title="罪与恶的开始">&larr;
+                        <a href="/post/1121_%E4%B8%B4%E5%BA%8A%E8%8D%AF%E7%89%A9/" data-toggle="tooltip" data-placement="top" title="临床实验设计项目书">&larr;
                             Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/post/1018-birthday/" data-toggle="tooltip" data-placement="top" title="从你的全世界路过">Next
+                        <a href="/post/1201_ifc/" data-toggle="tooltip" data-placement="top" title="社会主义核心价值观">Next
                             Post &rarr;</a>
                     </li>
                     
