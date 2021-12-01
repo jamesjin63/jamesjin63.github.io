@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jamesjin63</title>
+    <link>https://jamesjin63.github.io/</link>
+    <description>Recent content on Jamesjin63</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Dec 2021 09:10:59 +0800</lastBuildDate><atom:link href="https://jamesjin63.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021年12月1日 大盘</title>
+      <link>https://jamesjin63.github.io/post/20211201-%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Wed, 01 Dec 2021 09:10:59 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/20211201-%E6%93%8D%E4%BD%9C/</guid>
+      <description>今日操作 今日草入 宝安 17.38 准备草入 龟头 141 充气娃娃 7.8</description>
+    </item>
+    
+    <item>
+      <title>机器学习生存分析</title>
+      <link>https://jamesjin63.github.io/post/211015-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90cox-r/</link>
+      <pubDate>Mon, 29 Nov 2021 10:48:37 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/211015-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90cox-r/</guid>
+      <description>临床试验设计 院外心脏骤停患者神经功能不良预后的评分系统的开发与验证 doi:10.1093/eurheartj/ehaa570 代码 library(survival) library(survminer) library(dplyr) library(gbm) # COX PROPORTIONAL HAZARDS REGRESSION EXAMPLE cat(&amp;#34;Running cox proportional hazards regression example.\n&amp;#34;) # create some data N &amp;lt;- 3000 X1 &amp;lt;- runif(N) X2 &amp;lt;- runif(N) X3 &amp;lt;- factor(sample(letters[1:4],N,replace=T)) mu &amp;lt;-</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/post/0101_30call/</link>
+      <pubDate>Sat, 02 Jan 2021 19:34:27 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/0101_30call/</guid>
+      <description>Thirty 三十而立</description>
+    </item>
+    
+    <item>
+      <title>社会主义核心价值观</title>
+      <link>https://jamesjin63.github.io/post/1201_ifc/</link>
+      <pubDate>Tue, 01 Dec 2020 19:34:27 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1201_ifc/</guid>
+      <description>社会主义核心价值观 富强、民主、文明、和谐，自由、平等、公正、法治，爱国、敬业、诚信、友善。 IFC 屹立</description>
+    </item>
+    
+    <item>
+      <title>生存分析评分系统</title>
+      <link>https://jamesjin63.github.io/post/1130-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90/</link>
+      <pubDate>Sun, 29 Nov 2020 10:48:37 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1130-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90/</guid>
+      <description>临床试验设计 院外心脏骤停患者神经功能不良预后的评分系统的开发与验证 doi:10.1093/eurheartj/ehaa570 本研究是针对院外心脏骤停（OOHCA）事件，进行早期预测患者结局有助于医</description>
+    </item>
+    
+    <item>
+      <title>临床实验设计项目书</title>
+      <link>https://jamesjin63.github.io/post/1121_%E4%B8%B4%E5%BA%8A%E8%8D%AF%E7%89%A9/</link>
+      <pubDate>Sat, 21 Nov 2020 17:44:54 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1121_%E4%B8%B4%E5%BA%8A%E8%8D%AF%E7%89%A9/</guid>
+      <description>临床实验设计项目书 主要包括 临床用药治疗临床试验 药物临床试验统计分析计划书SAP 临床试验方案&amp;ndash;埃克替尼治疗非小细胞肺癌 实验方案&amp;n</description>
+    </item>
+    
+    <item>
+      <title>从你的全世界路过</title>
+      <link>https://jamesjin63.github.io/post/1018-birthday/</link>
+      <pubDate>Sun, 18 Oct 2020 09:10:59 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1018-birthday/</guid>
+      <description>换一个地方从新开始 But in order to wait me a moment, wait for my long narrow flag to wake up to reality like that, wait for my make a clear distinction between right and wrong, wait for me to persuade me, wait for me to climb a cliff. Wait for me to seam good thorax, will see you. 可不可以等等</description>
+    </item>
+    
+    <item>
+      <title>罪与恶的开始</title>
+      <link>https://jamesjin63.github.io/post/1010_mylife/</link>
+      <pubDate>Sat, 10 Oct 2020 19:34:27 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1010_mylife/</guid>
+      <description>2019 2019注定是个不平静的年份，承载了许多，更多的是让你来承受。 &amp;ldquo;ANYTHING THAN CAN GO WRONG WILL GO WRONG&amp;rdquo; &amp;ndash;MURPHY&amp;rsquo;S LAW 说过会回来，其实不用这样说，因为一开始就是错的。 终究是错</description>
+    </item>
+    
+    <item>
+      <title>罪与恶的开始</title>
+      <link>https://jamesjin63.github.io/post/media/1010_mylife/</link>
+      <pubDate>Sat, 10 Oct 2020 19:34:27 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/media/1010_mylife/</guid>
+      <description>2019 2019注定是个不平静的年份，承载了许多，更多的是让你来承受。 &amp;ldquo;ANYTHING THAN CAN GO WRONG WILL GO WRONG&amp;rdquo; &amp;ndash;MURPHY&amp;rsquo;S LAW 说过会回来，其实不用这样说，因为一开始就是错的。 终究是错</description>
+    </item>
+    
+    <item>
+      <title>Hugo折腾123</title>
+      <link>https://jamesjin63.github.io/post/1007-hugo%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Sat, 10 Oct 2020 11:03:23 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1007-hugo%E8%AE%BE%E7%BD%AE/</guid>
+      <description>新建hugo mkdir blog cd blog hugo new site Theme cd Theme hugo new post/my-first-post.md 引用自这里 下载主题并复制 下载主题，然后，使用该主题，将下载的主题example示例复制粘贴，并本地运行</description>
+    </item>
+    
+    <item>
+      <title>Hugo Theme搭建</title>
+      <link>https://jamesjin63.github.io/post/1010-hugo-%E7%BB%86%E8%8A%82/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1010-hugo-%E7%BB%86%E8%8A%82/</guid>
+      <description>Hugo主题创建 这里有一篇博客，是介绍如何创建属于自己喜好的Hugo Theme，从html到config.toml 设置 &amp;ldquo;Discover what this Hugo theme is all about and the core-concepts</description>
+    </item>
+    
+    <item>
+      <title>Hugo 主题更换</title>
+      <link>https://jamesjin63.github.io/post/1008-hugo-git%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Fri, 09 Oct 2020 10:48:37 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1008-hugo-git%E9%83%A8%E7%BD%B2/</guid>
+      <description>该文章主要是讨论，如何在本地搭建好hugo静态网页后， 上传git到自己的域名下。而且每天进行实时更新。 网上教程更多的是关于如何搭建Hugo，</description>
+    </item>
+    
+    <item>
+      <title>Clean White Theme for Hugo</title>
+      <link>https://jamesjin63.github.io/post/readme/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/readme/</guid>
+      <description>Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme.
+It is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme.
+These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/post/1015-%E4%B8%B4%E5%BA%8A%E8%AF%95%E9%AA%8C%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1015-%E4%B8%B4%E5%BA%8A%E8%AF%95%E9%AA%8C%E8%AE%BE%E8%AE%A1/</guid>
+      <description>临床实验设计项目书 主要包括 临床用药治疗临床试验【来自百度文库模板】 药物临床试验统计分析计划书SAP 临床试验方案&amp;ndash;埃克替尼治疗非小</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/post/1114/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/1114/</guid>
+      <description>GBD data下载 网址：GBD GBD Data Visualizations GBD Compare | Viz Hub GBD 下载 DW 下载 1.1990-2013 2. 糖尿病 指标： ASR 2017-1990： percentage change in ASR anunnal percentage change.b&amp;mdash;（AS</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/search/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/top/about/</guid>
+      <description>Jin-xin Zheng is a Ph.D. candidate at The National Institute of Parasitic Diseases China CDC. He got his bachelor’s degree from Anhui Medical University in 2015, enrolled one year of master’s training program in Nanjing Medical University and joined Jiangsu Institute of Parasitic Institute in 2016 to finish the master program. He has three years of study experience in Public Health, especially in bio-statistics, modeling methods within Infectious diseases. And cooperated with the clinician for trail setup and data analysis, by applying machine learning methods to clinical researches.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/top/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/top/books/</guid>
+      <description>1. Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记讲师: 吴恩达(Andrew Ng) 课程地址：https://www.coursera.org/lea</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/top/%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/top/%E4%BB%8B%E7%BB%8D/</guid>
+      <description>Jin-xin Zheng is a Ph.D. candidate at The National Institute of Parasitic Diseases China CDC. He got his bachelor’s degree from Anhui Medical University in 2015, enrolled one year of master’s training program in Nanjing Medical University and joined Jiangsu Institute of Parasitic Institute in 2016 to finish the master program. He has three years of study experience in Public Health, especially in bio-statistics, modeling methods within malaria control and schistosomiasis prevention.</description>
+    </item>
+    
+  </channel>
+</rss>

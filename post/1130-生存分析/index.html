@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Jamesjin63">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://jamesjin63.github.io//img/Home-bg.jpg">
+    <meta property="twitter:image" content="https://jamesjin63.github.io//img/Home-bg.jpg" />
+    
+
+    
+    <meta name="title" content="生存分析评分系统" />
+    <meta property="og:title" content="生存分析评分系统" />
+    <meta property="twitter:title" content="生存分析评分系统" />
+    
+
+    
+    <meta name="description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。">
+    <meta property="og:description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。" />
+    <meta property="twitter:description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>生存分析评分系统-郑金鑫的博客 | Zheng Jinxin Blog</title>
+
+    <link rel="canonical" href="/post/1130-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+    
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Jamesjin63</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/blog">blog</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/life">life</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/stock">stock</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/books/">BOOKS</a></li>
+                    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+                        <li><a href="/top/%e4%bb%8b%e7%bb%8d">介绍</a></li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/bg-all.jpg')
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/cox-model" title="Cox-model">
+                            Cox-model
+                        </a>
+                        
+                    </div>
+                    <h1>生存分析评分系统</h1>
+                    <h2 class="subheading">使用机器学习计算评分</h2>
+                    <span class="meta">
+                        Posted by 
+                        
+                                 Jamesjin63
+                         
+                        on 
+                        Sunday, November 29, 2020
+                        
+                        
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <header>
+                    <h2>TOC</h2>
+                </header>
+                <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#临床试验设计">临床试验设计</a></li>
+        <li><a href="#核心">核心</a></li>
+        <li><a href="#参考文献">参考文献：</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                
+                <h2 id="临床试验设计">临床试验设计</h2>
+<p><a href="https://mp.weixin.qq.com/s/0gdGZce7Jbprlygwn5MJCQ">院外心脏骤停患者神经功能不良预后的评分系统的开发与验证</a>
+<code>doi:10.1093/eurheartj/ehaa570</code>
+本研究是针对院外心脏骤停（OOHCA）事件，进行早期预测患者结局有助于医师进行临床决策。虽然针对该类患者预后预测已有CAHP及TTM评分管理系统，但两种评分系统变量组成复杂，紧急状态下使用受限。
+结论：MIRACLE2评分运用简单的入院临床指标，为院外心脏骤停的患者不良神经功能结局提供了早期准确预测，具有良好的临床使用价值。</p>
+<ol>
+<li>收集373例患者，进行临床指标分析，其生存预后效果。建立MIRACLE2评分系统。</li>
+<li>在外部队列，进行验证MIRACLE2评分系统。</li>
+</ol>
+<h2 id="核心">核心</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">采用机器学习方法，建立预测模型，导入患者信息，shiny显示结果。摈弃繁杂的评分计算，考虑变量的非线性关系。
+</code></pre></div><h2 id="参考文献">参考文献：</h2>
+<ul>
+<li>Zhang, XP; Gao, YZ; Chen, ZH; et al. An Eastern Hepatobiliary Surgery Hospital/Portal Vein Tumor Thrombus Scoring System as an Aid to Decision Making on Hepatectomy for Hepatocellular Carcinoma Patients With Portal Vein Tumor Thrombus: A Multicenter Study. Hepatology.2019,69(5):2076-2090</li>
+<li>Nilesh Pareek, Peter Kordis, Nicholas Beckley-Hoelscher, Dominic Pimenta, Spela Tadel Kocjancic, Anja Jazbec, Joanne Nevett, Rachael Fothergill, Sundeep Kalra, Tim Lockie, Ajay M Shah, Jonathan Byrne, Marko Noc, Philip MacCarthy, A practical risk score for early prediction of neurological outcome after out-of-hospital cardiac arrest: MIRACLE2, European Heart Journal, , ehaa570, <a href="https://doi.org/10.1093/eurheartj/ehaa570">https://doi.org/10.1093/eurheartj/ehaa570</a></li>
+<li>Moons KG, Altman DG, Reitsma JB, Ioannidis JP, Macaskill P, Steyerberg EW, Vickers AJ, Ransohoff DF, Collins GS. Transparent Reporting of a multivariable prediction model for Individual Prognosis or Diagnosis (TRIPOD): explanation and elaboration. Ann Intern Med. 2015 Jan 6;162(1):W1-73. doi: 10.7326/M14-0698. PMID: 25560730.</li>
+<li><a href="https://www.sohu.com/a/299158313_489312">基于Cox回归模型构建疾病风险评分工具</a></li>
+<li>Zhang XP, Gao YZ, Chen ZH, Chen MS, Li LQ, Wen TF, Xu L, Wang K, Chai ZT, Guo WX, Shi J, Xie D, Wu MC, Yee Lau W, Cheng SQ. An Eastern Hepatobiliary Surgery Hospital/Portal Vein Tumor Thrombus Scoring System as an Aid to Decision Making on Hepatectomy for Hepatocellular Carcinoma Patients With Portal Vein Tumor Thrombus: A Multicenter Study. Hepatology. 2019 May;69(5):2076-2090. doi: 10.1002/hep.30490. Epub 2019 Mar 12. PMID: 30586158.</li>
+</ul>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/1121_%E4%B8%B4%E5%BA%8A%E8%8D%AF%E7%89%A9/" data-toggle="tooltip" data-placement="top" title="临床实验设计项目书">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/1201_ifc/" data-toggle="tooltip" data-placement="top" title="社会主义核心价值观">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                
+<div id="disqus-comment"></div>
+
+
+
+            </div>
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/cox-model" title="cox-model">
+                            cox-model
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/despacito" title="despacito">
+                            despacito
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/git" title="git">
+                            git
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/hugo" title="hugo">
+                            hugo
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/sea" title="sea">
+                            sea
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://www.jianshu.com/u/7633f95fec7a">Jamesjin63简书</a></li>
+                        
+                        <li><a target="_blank" href="https://bookdown.org/jamesjin63/bookdown-demo/">Jamesjin63-Bookdown</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="Jamesjin63" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:jamesjin63@163.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    <li>
+                        <a target="_blank" href="/img/Wechat.jpg">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/jamesjin63">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/jin-james-959979186/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Jamesjin63 2021
+                    <br>
+                    <a href="https://gohugo.io/"> Powered by Hugo</a> | <a href="https://themes.gohugo.io/hugo-theme-cleanwhite"> cleanwhite </a> 
+                    <br>
+                    CC BY-NC-SA 4.0 </a>
+                 
+                  
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+</body>
+</html>

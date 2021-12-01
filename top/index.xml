@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tops on Jamesjin63</title>
+    <link>https://jamesjin63.github.io/top/</link>
+    <description>Recent content in Tops on Jamesjin63</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://jamesjin63.github.io/top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/top/about/</guid>
+      <description>Jin-xin Zheng is a Ph.D. candidate at The National Institute of Parasitic Diseases China CDC. He got his bachelor’s degree from Anhui Medical University in 2015, enrolled one year of master’s training program in Nanjing Medical University and joined Jiangsu Institute of Parasitic Institute in 2016 to finish the master program. He has three years of study experience in Public Health, especially in bio-statistics, modeling methods within Infectious diseases. And cooperated with the clinician for trail setup and data analysis, by applying machine learning methods to clinical researches.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/top/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/top/books/</guid>
+      <description>1. Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记讲师: 吴恩达(Andrew Ng) 课程地址：https://www.coursera.org/lea</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jamesjin63.github.io/top/%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/top/%E4%BB%8B%E7%BB%8D/</guid>
+      <description>Jin-xin Zheng is a Ph.D. candidate at The National Institute of Parasitic Diseases China CDC. He got his bachelor’s degree from Anhui Medical University in 2015, enrolled one year of master’s training program in Nanjing Medical University and joined Jiangsu Institute of Parasitic Institute in 2016 to finish the master program. He has three years of study experience in Public Health, especially in bio-statistics, modeling methods within malaria control and schistosomiasis prevention.</description>
+    </item>
+    
+  </channel>
+</rss>

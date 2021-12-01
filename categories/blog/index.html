@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Jamesjin63">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://jamesjin63.github.io//img/Home-bg.jpg">
+    <meta property="twitter:image" content="https://jamesjin63.github.io//img/Home-bg.jpg" />
+    
+
+    
+    <meta name="title" content="Blog" />
+    <meta property="og:title" content="Blog" />
+    <meta property="twitter:title" content="Blog" />
+    
+
+    
+    <meta name="description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。">
+    <meta property="og:description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。" />
+    <meta property="twitter:description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Blog-郑金鑫的博客 | Zheng Jinxin Blog</title>
+
+    <link rel="canonical" href="/categories/blog/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+    
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Jamesjin63</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/blog">blog</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/life">life</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/stock">stock</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/books/">BOOKS</a></li>
+                    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+                        <li><a href="/top/%e4%bb%8b%e7%bb%8d">介绍</a></li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/Home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>Jamesjin63 </h1>
+                    
+		    <span class="subheading">The World Within Data</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+  
+<div class="container">
+    <div class="row">
+        
+        
+   	    <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container
+        ">
+            
+
+<div class="post-preview">
+    <a href="https://jamesjin63.github.io/post/211015-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90cox-r/">
+        <h2 class="post-title">
+            机器学习生存分析
+        </h2>
+	
+        <h3 class="post-subtitle">
+            使用机器学习计算评分
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            临床试验设计 院外心脏骤停患者神经功能不良预后的评分系统的开发与验证 doi:10.1093/eurheartj/ehaa570 代码 library(survival) library(survminer) library(dplyr) library(gbm) # COX PROPORTIONAL HAZARDS REGRESSION EXAMPLE cat(&#34;Running cox proportional hazards regression example.\n&#34;) # create some data N &lt;- 3000 X1 &lt;- runif(N) X2 &lt;- runif(N) X3 &lt;- factor(sample(letters[1:4],N,replace=T)) mu &lt;-
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by      Jamesjin63 Monday, November 29, 2021
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://jamesjin63.github.io/post/0101_30call/">
+        <h2 class="post-title">
+            
+        </h2>
+	
+        <h3 class="post-subtitle">
+            0102-2021
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            30
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by      --Jamesjin63-- Saturday, January 2, 2021
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://jamesjin63.github.io/post/1201_ifc/">
+        <h2 class="post-title">
+            社会主义核心价值观
+        </h2>
+	
+        <h3 class="post-subtitle">
+            1201-2020
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            IFC
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by      --Jamesjin63-- Tuesday, December 1, 2020
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://jamesjin63.github.io/post/1130-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90/">
+        <h2 class="post-title">
+            生存分析评分系统
+        </h2>
+	
+        <h3 class="post-subtitle">
+            使用机器学习计算评分
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            临床试验设计 院外心脏骤停患者神经功能不良预后的评分系统的开发与验证 doi:10.1093/eurheartj/ehaa570 本研究是针对院外心脏骤停（OOHCA）事件，进行早期预测患者结局有助于医
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by      Jamesjin63 Sunday, November 29, 2020
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://jamesjin63.github.io/post/1121_%E4%B8%B4%E5%BA%8A%E8%8D%AF%E7%89%A9/">
+        <h2 class="post-title">
+            临床实验设计项目书
+        </h2>
+	
+        <h3 class="post-subtitle">
+            PD1免疫抑制剂
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            临床实验设计项目书 主要包括 临床用药治疗临床试验 药物临床试验统计分析计划书SAP 临床试验方案&ndash;埃克替尼治疗非小细胞肺癌 实验方案&n
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by      --Jamesjin63-- Saturday, November 21, 2020
+    
+    
+    </p>
+
+</div>
+<hr>
+
+
+            
+
+
+<ul class="pager">
+    
+    
+    <li class="next">
+        <a href="/categories/blog/page/2/">Older Posts &rarr;</a>
+    </li>
+    
+</ul>
+
+
+       	</div>
+        
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+             
+            
+                
+            
+                
+                    <a href="/tags/cox-model" title="cox-model">
+                        cox-model
+                    </a>
+                
+            
+                
+                    <a href="/tags/despacito" title="despacito">
+                        despacito
+                    </a>
+                
+            
+                
+            
+                
+                    <a href="/tags/git" title="git">
+                        git
+                    </a>
+                
+            
+                
+                    <a href="/tags/hugo" title="hugo">
+                        hugo
+                    </a>
+                
+            
+                
+                    <a href="/tags/sea" title="sea">
+                        sea
+                    </a>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </section>
+    
+
+    
+	
+    <section class="visible-md visible-lg">
+	<hr><h5><a href="/top/about">ABOUT ME</a></h5>
+        <div class="short-about">
+            
+            <a href="/top/about">
+               <img src="https://icons.iconarchive.com/icons/iconka/tailwaggers/128/dog-haski-icon.png" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>流行病, 临床统计,数据科学,机器学习, R语言</p>
+            
+
+
+           
+           <ul class="list-inline"> 
+               
+               <li>
+                   <a href='/categories/blog/index.xml' rel="alternate" type="application/rss+xml" title="Jamesjin63" >
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="/img/Wechat.jpg">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/jamesjin63">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://www.linkedin.com/in/jin-james-959979186/">
+                       <span class="fa-stack fa-lg">
+                           <i class="fa fa-circle fa-stack-2x"></i>
+                           <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FRIENDS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="https://www.jianshu.com/u/7633f95fec7a">Jamesjin63简书</a></li>
+            
+            <li><a target="_blank" href="https://bookdown.org/jamesjin63/bookdown-demo/">Jamesjin63-Bookdown</a></li>
+            
+        </ul>
+    </section>
+    
+
+       
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>BOOKMARKS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="https://www.r-bloggers.com/">R-Bloggers</a></li>
+            
+            <li><a target="_blank" href="https://python-bloggers.com/">Python-bloggers</a></li>
+            
+            <li><a target="_blank" href="http://dwoll.de/rexrepos/posts/survivalKM.html">R-statistics</a></li>
+            
+            <li><a target="_blank" href="https://python-graph-gallery.com/">Python可视化</a></li>
+            
+            <li><a target="_blank" href="https://www.r-graph-gallery.com/">R可视化</a></li>
+            
+        </ul>
+    </section>
+    
+    
+    
+    
+</div>
+
+	</div>
+</div>
+
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='/categories/blog/index.xml' rel="alternate" type="application/rss+xml" title="Jamesjin63" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:jamesjin63@163.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    <li>
+                        <a target="_blank" href="/img/Wechat.jpg">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/jamesjin63">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/jin-james-959979186/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Jamesjin63 2021
+                    <br>
+                    <a href="https://gohugo.io/"> Powered by Hugo</a> | <a href="https://themes.gohugo.io/hugo-theme-cleanwhite"> cleanwhite </a> 
+                    <br>
+                    CC BY-NC-SA 4.0 </a>
+                 
+                  
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+</body>
+</html>
