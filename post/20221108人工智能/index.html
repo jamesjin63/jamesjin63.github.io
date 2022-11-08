@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Jamesjin63">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://jamesjin63.github.io//img/Home-bg.jpg">
+    <meta property="twitter:image" content="https://jamesjin63.github.io//img/Home-bg.jpg" />
+    
+
+    
+    <meta name="title" content="人工智能&#43;阿尔茨海默" />
+    <meta property="og:title" content="人工智能&#43;阿尔茨海默" />
+    <meta property="twitter:title" content="人工智能&#43;阿尔茨海默" />
+    
+
+    
+    <meta name="description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。">
+    <meta property="og:description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。" />
+    <meta property="twitter:description" content="jamesjin63, R语言爱好者，数据大法师 | 这里是 jamesjin63 的博客，与你一起发现更大的世界。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>人工智能&#43;阿尔茨海默-郑金鑫的博客 | Zheng Jinxin Blog</title>
+
+    <link rel="canonical" href="/post/20221108%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+    
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Jamesjin63</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/blog">blog</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/life">life</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/stock">stock</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/books/">BOOKS</a></li>
+                    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+                        <li><a href="/top/%e4%bb%8b%e7%bb%8d">介绍</a></li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/bg-all.jpg')
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD" title="人工智能">
+                            人工智能
+                        </a>
+                        
+                        <a class="tag" href="/tags/tag2" title="tag2">
+                            tag2
+                        </a>
+                        
+                    </div>
+                    <h1>人工智能&#43;阿尔茨海默</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        Posted by 
+                        
+                                 --Jamesjin63--
+                         
+                        on 
+                        Tuesday, November 8, 2022
+                        
+                        
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <header>
+                    <h2>TOC</h2>
+                </header>
+                <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                
+                <h4 id="1整合颅脑mri外周血生物标记物感官指标运动评估等多组学模式数据通过人工智能算法构建阿尔茨海默病发病风险预警模型">1）整合颅脑MRI、外周血生物标记物、感官指标、运动评估等“多组学模式”数据，通过人工智能算法构建阿尔茨海默病发病风险预警模型；</h4>
+<h5 id="发病结局">发病结局</h5>
+<p>MCI为第一临床结局指标，AD确诊为第二临床结局指标。</p>
+<h5 id="构建模型">构建模型</h5>
+<ol>
+<li>
+<p>数据预处理
+研究MCI/AD的数据特征，包括影像组学（MRI）、基因组学、外周血AD生物标志物、临床表型（感官指标、神经心理测验、运动指标）等多维度数据在MCI/AD及正常组人群的分布特征及比较。  <strong>影像学数据（颅脑MRI）</strong>：通过深度学习提取的MRI图片的特征值信息，并入MCI及AD的数据库。</p>
+</li>
+<li>
+<p>MCI 预测模型
+在上述数据库中，然后使用<strong>特征选择方法</strong>筛选出用于建立预测模型的特征子集，通过机器学习算法（随机森林、神经网络等）构建多模态 MCI 发生风险模型。</p>
+</li>
+<li>
+<p>AD 预测模型
+同样，在上述数据库中，使用<strong>特征选择方法</strong>筛选出用于建立预测模型的特征子集，这里在融入病患的MCI特征；即MCI是介于AD与正常人之间的过渡状态。需要在MCI人群再次识别，发展为AD的人群。再次通过机器学习算法（随机森林、神经网络等）构建多模态 AD 发生风险模型。</p>
+</li>
+<li>
+<p>模型评价与验证
+针对现有机器学习算法的不足进行改进，并通过建立预测模型的方法，以模型准确率、特异性以及敏感性作为模型效果的评价标准，对比模型改进前后的效果验证改进方法的可行性。</p>
+</li>
+</ol>
+<h4 id="2基于多组学模式数据绘制-ad-相关的认知连续谱的效用仍有待在一般社区人群中进行评估">2）基于“多组学模式”数据，绘制 AD 相关的认知连续谱的效用仍有待在一般社区人群中进行评估。</h4>
+<p>正常人发展至AD，是一个缓慢变化过程；即通过现有多组学数据，结合机器学习算法，探究能够预测发生发展为MCI/AD的敏感因素，如外周血 AD 标志物等。</p>
+<ol>
+<li>
+<p><strong>发病结局</strong>:<br>
+MCI为第一结局指标，AD为第二结局指标，并考虑发生MCI/AD时间。</p>
+</li>
+<li>
+<p><strong>模型选择</strong>:<br>
+在进行MCI和AD进展预测同时，需要考虑时间因素，既往研究对最终变量的确定为MCI和AD，但是在建立监督式的机器学习模型时，只考虑预测因子与因变量（MCI和AD）之间的关系，目前建立的机器学习分类模型，并不能准确刻画AD 相关的认知连续谱。</p>
+</li>
+<li>
+<p><strong>生存分析</strong>:<br>
+涉及因变量包含时间因素，考虑生存分析，选择Cox回归模型及机器学习的生存分析模型，建立MCI/AD发生发展的风险模型。</p>
+</li>
+</ol>
+<h4 id="3基于mind-china项目多模干预内容明确个体化获益的多模干预方案">3）基于MIND-China项目多模干预内容，明确个体化获益的多模干预方案。</h4>
+<h5 id="建立假设">建立假设</h5>
+<ol>
+<li>通过建立基于机器学习的MCI及AD风险预测模型，识别出重要的影响因素，预测个体发生AD的概率。基于此，可制定干预(或治疗)策略，针对其危险因素进行预防与控制。</li>
+<li>在对目标的人群随访基础上，对MCI人群进行干预与治疗。可能会出现部分群体对干预措施有正向效应，部分群体可能无效或出现负向效应。
+通过机器学习算法，对干预措施（或治疗）产生不同反应的MCI个体进行区分识别，从而实现个体化干预策略的实施。</li>
+</ol>
+<h5 id="模型验证假说">模型验证假说</h5>
+<p>基于机器学习的递归分区算法是一种可识别具有相似关联模式(如在预测变量和反应之间的关联)亚群的数据驱动的人工智能方法。利用现有多组学数据，结合机器学习的分类模型，对不同干预措施下MCI人群进行分类，以到达AD的时间作为反应变量，并计算不同干预策略相关的 HR，从而为患者的个体化治疗提供参考。</p>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/20211201-%E6%93%8D%E4%BD%9C/" data-toggle="tooltip" data-placement="top" title="2021年12月1日 大盘">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+
+                
+<div id="disqus-comment"></div>
+
+
+
+            </div>
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/cox-model" title="cox-model">
+                            cox-model
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/despacito" title="despacito">
+                            despacito
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/git" title="git">
+                            git
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/hugo" title="hugo">
+                            hugo
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/sea" title="sea">
+                            sea
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://www.jianshu.com/u/7633f95fec7a">Jamesjin63简书</a></li>
+                        
+                        <li><a target="_blank" href="https://bookdown.org/jamesjin63/bookdown-demo/">Jamesjin63-Bookdown</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="Jamesjin63" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:jamesjin63@163.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    <li>
+                        <a target="_blank" href="/img/Wechat.jpg">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/jamesjin63">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/jin-james-959979186/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Jamesjin63 2022
+                    <br>
+                    <a href="https://gohugo.io/"> Powered by Hugo</a> | <a href="https://themes.gohugo.io/hugo-theme-cleanwhite"> cleanwhite </a> 
+                    <br>
+                    CC BY-NC-SA 4.0 </a>
+                 
+                  
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+</body>
+</html>

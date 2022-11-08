@@ -229,7 +229,7 @@
 </nav>
                 
                 <h2 id="新建hugo">新建hugo</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir blog
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir blog
 <span style="color:#8be9fd;font-style:italic">cd</span> blog
 
 hugo new site Theme
@@ -239,7 +239,7 @@ hugo new post/my-first-post.md
 </code></pre></div><p><a href="https://mp.weixin.qq.com/s/W0I_KUifTpn1aWavaFy8-Q">引用自这里</a></p>
 <h2 id="下载主题并复制">下载主题并复制</h2>
 <p>下载主题，然后，使用该主题，将下载的主题example示例复制粘贴，并本地运行。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span style="color:#ff79c6">=</span><span style="color:#bd93f9">1</span> themes/jane
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span style="color:#ff79c6">=</span><span style="color:#bd93f9">1</span> themes/jane
 cp -r themes/stack/exampleSite/content ./
 cp themes/stack/exampleSite/config.toml ./
 hugo server
@@ -253,7 +253,7 @@ hugo -t jane</p>
 <p>1.先将Hugo文件转成 public文件夹
 2.git上传 public文件
 <code>hugo --theme=jane --baseUrl=&quot;https://github.com/jamesjin63/jamesjin63.github.io/&quot; --buildDrafts</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> <span style="color:#8be9fd;font-style:italic">cd</span> public
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> <span style="color:#8be9fd;font-style:italic">cd</span> public
  git init
  git remote add origin https://github.com/jamesjin63/jamesjin63.github.io
  git add .
@@ -262,7 +262,7 @@ hugo -t jane</p>
  git pull origin master --allow-unrelated-histories
 </code></pre></div><h2 id="对github内容进行更新">对github内容进行更新</h2>
 <p>还是要生成public文件夹，然后运行</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#6272a4"># rm -rf public</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#6272a4"># rm -rf public</span>
 <span style="color:#8be9fd;font-style:italic">cd</span> public
 git init
 git remote add origin https://github.com/jamesjin63/jamesjin63.github.io
@@ -352,6 +352,10 @@ git push -f origin master
                         <a href="/tags/sea" title="sea">
                             sea
                         </a>
+                        
+                        
+                        
+                        
                         
                         
                         
@@ -471,7 +475,7 @@ git push -f origin master
             
                 </ul>
 		<p class="copyright text-muted">
-                    Copyright &copy; Jamesjin63 2021
+                    Copyright &copy; Jamesjin63 2022
                     <br>
                     <a href="https://gohugo.io/"> Powered by Hugo</a> | <a href="https://themes.gohugo.io/hugo-theme-cleanwhite"> cleanwhite </a> 
                     <br>

@@ -1,212 +1,135 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://jamesjin63.github.io/post/20211201-%E6%93%8D%E4%BD%9C/</loc>
-    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesjin63.github.io/categories/</loc>
-    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesjin63.github.io/</loc>
-    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesjin63.github.io/post/</loc>
-    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesjin63.github.io/categories/stock/</loc>
-    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesjin63.github.io/tags/</loc>
-    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesjin63.github.io/tags/%E5%A4%A7a/</loc>
-    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamesjin63.github.io/tags/%E9%9A%86%E5%9F%BA/</loc>
-    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://jamesjin63.github.io/categories/blog/</loc>
-    <lastmod>2021-11-29T10:48:37+08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/categories/</loc>
+    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/</loc>
+    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/post/</loc>
+    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/tag2/</loc>
+    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/</loc>
+    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/post/20221108%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/post/20211201-%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/categories/stock/</loc>
+    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/%E5%A4%A7a/</loc>
+    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/%E9%9A%86%E5%9F%BA/</loc>
+    <lastmod>2021-12-01T09:10:59+08:00</lastmod>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/cox-model/</loc>
     <lastmod>2021-11-29T10:48:37+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/211015-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90cox-r/</loc>
     <lastmod>2021-11-29T10:48:37+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/0101_30call/</loc>
     <lastmod>2021-01-02T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/%E5%8F%8B%E5%96%84/</loc>
     <lastmod>2021-01-02T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/%E8%AF%9A%E4%BF%A1/</loc>
     <lastmod>2021-01-02T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/%E6%95%AC%E4%B8%9A/</loc>
     <lastmod>2020-12-01T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/%E7%88%B1%E5%9B%BD/</loc>
     <lastmod>2020-12-01T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1201_ifc/</loc>
     <lastmod>2020-12-01T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1130-%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90/</loc>
     <lastmod>2020-11-29T10:48:37+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1121_%E4%B8%B4%E5%BA%8A%E8%8D%AF%E7%89%A9/</loc>
     <lastmod>2020-11-21T17:44:54+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/%E4%B8%B4%E5%BA%8A%E8%AF%95%E9%AA%8C/</loc>
     <lastmod>2020-11-21T17:44:54+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/%E8%8D%AF%E7%89%A9%E8%AF%95%E9%AA%8C/</loc>
     <lastmod>2020-11-21T17:44:54+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/cake/</loc>
     <lastmod>2020-10-18T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/fish/</loc>
     <lastmod>2020-10-18T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/categories/life/</loc>
     <lastmod>2020-10-18T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1018-birthday/</loc>
     <lastmod>2020-10-18T09:10:59+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/despacito/</loc>
     <lastmod>2020-10-10T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/sea/</loc>
     <lastmod>2020-10-10T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1010_mylife/</loc>
     <lastmod>2020-10-10T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/media/1010_mylife/</loc>
     <lastmod>2020-10-10T19:34:27+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/git/</loc>
     <lastmod>2020-10-10T11:03:23+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/tags/hugo/</loc>
     <lastmod>2020-10-10T11:03:23+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1007-hugo%E8%AE%BE%E7%BD%AE/</loc>
     <lastmod>2020-10-10T11:03:23+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1010-hugo-%E7%BB%86%E8%8A%82/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1008-hugo-git%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2020-10-09T10:48:37+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/readme/</loc>
     <lastmod>2019-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1015-%E4%B8%B4%E5%BA%8A%E8%AF%95%E9%AA%8C%E8%AE%BE%E8%AE%A1/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/post/1114/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/search/placeholder/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/top/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/top/books/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/top/%E4%BB%8B%E7%BB%8D/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/search/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jamesjin63.github.io/top/</loc>
   </url>
-  
 </urlset>

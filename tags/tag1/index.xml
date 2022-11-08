@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag1 on Jamesjin63</title>
+    <link>https://jamesjin63.github.io/tags/tag1/</link>
+    <description>Recent content in tag1 on Jamesjin63</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Nov 2022 12:26:03 +0800</lastBuildDate><atom:link href="https://jamesjin63.github.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Example Post</title>
+      <link>https://jamesjin63.github.io/post/20221108%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
+      <pubDate>Tue, 08 Nov 2022 12:26:03 +0800</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/20221108%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</guid>
+      <description>1）整合颅脑MRI、外周血生物标记物、感官指标、运动评估等“多组学模式”数据，通过人工智能算法构建阿尔茨海默病发病风险预警模型； 发病结局 MC</description>
+    </item>
+    
+  </channel>
+</rss>
