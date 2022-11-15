@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="Hugo折腾123" />
-    <meta property="og:title" content="Hugo折腾123" />
-    <meta property="twitter:title" content="Hugo折腾123" />
+    <meta name="title" content="帽子哥周一直播笔记" />
+    <meta property="og:title" content="帽子哥周一直播笔记" />
+    <meta property="twitter:title" content="帽子哥周一直播笔记" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Hugo折腾123-郑金鑫的博客 | Zheng Jinxin Blog</title>
+    <title>帽子哥周一直播笔记-郑金鑫的博客 | Zheng Jinxin Blog</title>
 
-    <link rel="canonical" href="/post/1007-hugo%E8%AE%BE%E7%BD%AE/">
+    <link rel="canonical" href="/post/20221115-%E5%B8%BD%E5%AD%90%E5%93%A5zhib/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -173,24 +173,24 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/hugo" title="Hugo">
-                            Hugo
+                        <a class="tag" href="/tags/%E8%82%A1%E7%A5%A8" title="股票">
+                            股票
                         </a>
                         
-                        <a class="tag" href="/tags/git" title="git">
-                            git
+                        <a class="tag" href="/tags/%E8%B4%A2%E7%BB%8F" title="财经">
+                            财经
                         </a>
                         
                     </div>
-                    <h1>Hugo折腾123</h1>
-                    <h2 class="subheading">涉及到hugo入门的一些坑坑洼洼</h2>
+                    <h1>帽子哥周一直播笔记</h1>
+                    <h2 class="subheading">洗筹</h2>
                     <span class="meta">
                         Posted by 
                         
-                                 Jamesjin63
+                                 --Jamesjin63--
                          
                         on 
-                        Saturday, October 10, 2020
+                        Tuesday, November 15, 2022
                         
                         
                         
@@ -222,68 +222,33 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#新建hugo">新建hugo</a></li>
-        <li><a href="#下载主题并复制">下载主题并复制</a></li>
-        <li><a href="#hugo-生成public-文件">hugo 生成public 文件</a></li>
-        <li><a href="#部署到github">部署到github</a></li>
-        <li><a href="#对github内容进行更新">对github内容进行更新</a></li>
+        <li><a href="#直播笔记">直播笔记</a></li>
+        <li><a href="#早盘提示">早盘提示</a></li>
       </ul>
     </li>
   </ul>
 </nav>
                 
-                <h2 id="新建hugo">新建hugo</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir blog
-<span style="color:#8be9fd;font-style:italic">cd</span> blog
-
-hugo new site Theme
-<span style="color:#8be9fd;font-style:italic">cd</span> Theme
-hugo new post/my-first-post.md
-
-</code></pre></div><p><a href="https://mp.weixin.qq.com/s/W0I_KUifTpn1aWavaFy8-Q">引用自这里</a></p>
-<h2 id="下载主题并复制">下载主题并复制</h2>
-<p>下载主题，然后，使用该主题，将下载的主题example示例复制粘贴，并本地运行。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span style="color:#ff79c6">=</span><span style="color:#bd93f9">1</span> themes/jane
-cp -r themes/stack/exampleSite/content ./
-cp themes/stack/exampleSite/config.toml ./
-hugo server
-</code></pre></div><h2 id="hugo-生成public-文件">hugo 生成public 文件</h2>
-<p>本地运行好以后，上传Git仓库。如何创建Git见这里。
-运行下面code就可以看到文件目录下多出public文件夹。
-hugo
-hugo -t jane</p>
-<p><a href="https://mp.weixin.qq.com/s/0DyoTn17Xu0SJchiQ5STYg">基于「Hugo」搭建自己的博客网站</a></p>
-<h2 id="部署到github">部署到github</h2>
-<p>1.先将Hugo文件转成 public文件夹
-2.git上传 public文件
-<code>hugo --theme=jane --baseUrl=&quot;https://github.com/jamesjin63/jamesjin63.github.io/&quot; --buildDrafts</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> <span style="color:#8be9fd;font-style:italic">cd</span> public
- git init
- git remote add origin https://github.com/jamesjin63/jamesjin63.github.io
- git add .
- git commit -m <span style="color:#f1fa8c">&#34;hugo&#34;</span>
- git push -u origin master
- git pull origin master --allow-unrelated-histories
-</code></pre></div><h2 id="对github内容进行更新">对github内容进行更新</h2>
-<p>还是要生成public文件夹，然后运行</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#6272a4"># rm -rf public</span>
-<span style="color:#8be9fd;font-style:italic">cd</span> public
-git init
-git remote add origin https://github.com/jamesjin63/jamesjin63.github.io
-git add -A
-git commit -m <span style="color:#f1fa8c">&#34;hugosite&#34;</span>
-git push -f origin master
-</code></pre></div><p>以下是git的上传跟新<a href="https://blog.csdn.net/tangxiujiang/article/details/80463325">Link</a>
-<a href="https://www.bilibili.com/video/av285495308/">bilibili</a></p>
-<h3 id="git设置及自动发布">git设置及自动发布</h3>
-<ul>
-<li><a href="https://mp.weixin.qq.com/s/W0I_KUifTpn1aWavaFy8-Q">自动发布插件</a></li>
-<li><a href="https://www.jianshu.com/p/7ba46f3c1bb2">新建deploy.sh脚本</a></li>
-<li>git push -f origin master</li>
-<li>git config &ndash;local -l</li>
-<li>git config &ndash;global user.email &ldquo;<a href="mailto:jamesjin63@163.com">jamesjin63@163.com</a>&rdquo;</li>
-<li>git config &ndash;global user.name &ldquo;jamesjin63&rdquo;</li>
-</ul>
+                <h2 id="直播笔记">直播笔记</h2>
+<p>1、最近主力已经开始各种洗筹，不要追涨杀跌。按课程指标操作上一周赛道股几乎都到了做T指标。<br>
+2、资本市场的传闻宁可信其有，不可信其无，有问题的票尽可能回避。参考巴菲特减持比亚迪。<br>
+3、自己是身体健康的第一责任人，自己对自己的身体负责。是今天最大的重点。不要骂骂咧咧。越往后会也越会归于平静。参考国外，各大国际赛事现场。<br>
+4、美联储放出消息，加息远未结束。下阶段美联储可能会改变bp，跳跃性加息等各种姿势来维持美元强势。未来美元指数反复带来的下跌，都是择机加仓的机会！<br>
+5、猪肉:该出货的已经出了，惜售的还在手里攥着。暂时拿着，博一波春节前的行情。<br>
+6、旅游免税:日线级别调整，等调整好。不跌破前低问题不大。先观察。<br>
+7、复盘:涨跌比1:1.8，赚钱效应很差，成交量10673亿，缩量1558亿下跌0.13%，收3083.4点。北向继续疯狂流入166.02亿。最近美元指数、汇率、生物事件都迎来重大转机，长期很好。今天尾盘下杀是因为国际庄放开，资本开始害怕不来，又害怕胡来。但归根结底现阶段主力目的就是洗筹，目前3200-3300的套牢盘纹丝未动。管住手只要不追涨杀跌。<br>
+8、今天涨的好的都和放开的逻辑有关，中药，流感等。<br>
+赛道股按课程指标操作就好。耐心等待日线级别调整好。
+种子:日线调整好可以进。<br>
+房地产:逢高T。中长期有机会。（利好:16条） <br>
+9、总结:技术上日线级别调整还没有完成，调整也不够充分。本周如果涨到3150-3170，可以逢高做T。保持5成底仓。短线不愿意躲的，可以不动。</p>
+<h2 id="早盘提示">早盘提示</h2>
+<blockquote>
+<p>指数昨天高开后冲高回落，并且连续两日放量，很多人认为在利好的情况下指数还这个鸟样的表现，真是令人伤心，A股就是扶不起来的阿斗。非也非也！市场有市场的节奏，本轮市场从2885点开始启动后，从时间和空间结构上，就是会遭遇阻力，上方3200-3300是强套牢区域，这里短期出现调整也是非常正常的一件事情，正如最近早盘提醒大家的，这里不能追高，千万要小心主力通过强震荡洗盘，主力有100种方法洗你</p>
+</blockquote>
+<p>所以近期操作上，注意好节奏，跟昨天的观点没有太大变化，如果你是短线或者高手，你可以这里上下100点，越涨越卖一点降低成本，越跌也有钱买，向下空间也有限，大致继续还是这个节奏，千万不能追涨杀跌就对了</p>
+<p>中长线个股不盲目加仓，等主力冲破3200-3300后，到时候追点高都行，现在追高不行。</p>
+<p>而方向上暂时低谷大蓝筹和赛道股是跷跷板效应，此长彼消，更是要注意节凑，也是不要追涨杀跌，耐心等待其中看好的放心调整完才下手，比如赛道股调整一段时间了，可能有反弹，可是还不能说就调整完了，还是需要耐心等待，就这样</p>
 
 
                 
@@ -292,15 +257,10 @@ git push -f origin master
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/1010-hugo-%E7%BB%86%E8%8A%82/" data-toggle="tooltip" data-placement="top" title="Hugo Theme搭建">&larr;
+                        <a href="/post/20221112/" data-toggle="tooltip" data-placement="top" title="帽子哥周五直播笔记">&larr;
                             Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/post/media/1010_mylife/" data-toggle="tooltip" data-placement="top" title="罪与恶的开始">Next
-                            Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
