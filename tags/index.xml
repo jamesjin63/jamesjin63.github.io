@@ -142,5 +142,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>tag1</title>
+      <link>https://jamesjin63.github.io/tags/tag1/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/tags/tag1/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

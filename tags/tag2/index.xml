@@ -16,5 +16,14 @@
       <description>1）整合颅脑MRI、外周血生物标记物、感官指标、运动评估等“多组学模式”数据，通过人工智能算法构建阿尔茨海默病发病风险预警模型； 发病结局 MC</description>
     </item>
     
+    <item>
+      <title>An Example Post</title>
+      <link>https://jamesjin63.github.io/post/my-first-post/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/my-first-post/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
