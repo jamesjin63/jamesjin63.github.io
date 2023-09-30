@@ -127,15 +127,6 @@ These two upstream projects have done awesome jobs to create a blog theme, what 
     </item>
     
     <item>
-      <title>An Example Post</title>
-      <link>https://jamesjin63.github.io/post/my-first-post/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamesjin63.github.io/post/my-first-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://jamesjin63.github.io/post/1015-%E4%B8%B4%E5%BA%8A%E8%AF%95%E9%AA%8C%E8%AE%BE%E8%AE%A1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -151,6 +142,15 @@ These two upstream projects have done awesome jobs to create a blog theme, what 
       
       <guid>https://jamesjin63.github.io/post/1114/</guid>
       <description>GBD data下载 网址：GBD GBD Data Visualizations GBD Compare | Viz Hub GBD 下载 DW 下载 1.1990-2013 2. 糖尿病 指标： ASR 2017-1990： percentage change in ASR anunnal percentage change.b&amp;mdash;（AS</description>
+    </item>
+    
+    <item>
+      <title>人工智能&#43;阿尔茨海默</title>
+      <link>https://jamesjin63.github.io/post/2022110119/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesjin63.github.io/post/2022110119/</guid>
+      <description></description>
     </item>
     
   </channel>
