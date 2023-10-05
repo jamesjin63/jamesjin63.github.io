@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesjin63.github.io/categories/</loc>
+    <lastmod>2023-10-05T10:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/</loc>
+    <lastmod>2023-10-05T10:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/life/</loc>
+    <lastmod>2023-10-05T10:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/categories/life/</loc>
+    <lastmod>2023-10-05T10:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/post/</loc>
+    <lastmod>2023-10-05T10:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/post/20231005/</loc>
+    <lastmod>2023-10-05T10:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/song/</loc>
+    <lastmod>2023-10-05T10:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/</loc>
+    <lastmod>2023-10-05T10:48:37+08:00</lastmod>
+  </url><url>
     <loc>https://jamesjin63.github.io/categories/blog/</loc>
     <lastmod>2022-11-08T12:26:03+08:00</lastmod>
   </url><url>
-    <loc>https://jamesjin63.github.io/categories/</loc>
-    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
-  </url><url>
-    <loc>https://jamesjin63.github.io/</loc>
-    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
-  </url><url>
-    <loc>https://jamesjin63.github.io/post/</loc>
-    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
-  </url><url>
     <loc>https://jamesjin63.github.io/tags/tag2/</loc>
-    <lastmod>2022-11-08T12:26:03+08:00</lastmod>
-  </url><url>
-    <loc>https://jamesjin63.github.io/tags/</loc>
     <lastmod>2022-11-08T12:26:03+08:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
@@ -66,9 +78,6 @@
     <lastmod>2020-10-18T09:10:59+08:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/tags/fish/</loc>
-    <lastmod>2020-10-18T09:10:59+08:00</lastmod>
-  </url><url>
-    <loc>https://jamesjin63.github.io/categories/life/</loc>
     <lastmod>2020-10-18T09:10:59+08:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/post/1018-birthday/</loc>
