@@ -3,24 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesjin63.github.io/categories/</loc>
-    <lastmod>2024-01-31T23:23:37+08:00</lastmod>
-  </url><url>
-    <loc>https://jamesjin63.github.io/tags/children/</loc>
-    <lastmod>2024-01-31T23:23:37+08:00</lastmod>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/</loc>
-    <lastmod>2024-01-31T23:23:37+08:00</lastmod>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/tags/life/</loc>
-    <lastmod>2024-01-31T23:23:37+08:00</lastmod>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/categories/life/</loc>
-    <lastmod>2024-01-31T23:23:37+08:00</lastmod>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/post/</loc>
-    <lastmod>2024-01-31T23:23:37+08:00</lastmod>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/study/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/tags/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/post/20240605/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesjin63.github.io/tags/children/</loc>
     <lastmod>2024-01-31T23:23:37+08:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/post/20240131/</loc>
@@ -29,7 +35,7 @@
     <loc>https://jamesjin63.github.io/post/20231005/</loc>
     <lastmod>2023-10-05T10:48:37+08:00</lastmod>
   </url><url>
-    <loc>https://jamesjin63.github.io/tags/study/</loc>
+    <loc>https://jamesjin63.github.io/post/20231005%E7%9A%84%E5%89%AF%E6%9C%AC/</loc>
     <lastmod>2023-10-05T10:48:37+08:00</lastmod>
   </url><url>
     <loc>https://jamesjin63.github.io/categories/blog/</loc>
@@ -144,5 +150,7 @@
     <loc>https://jamesjin63.github.io/top/</loc>
   </url><url>
     <loc>https://jamesjin63.github.io/post/2022110119/</loc>
+  </url><url>
+    <loc>https://jamesjin63.github.io/post/20240604/</loc>
   </url>
 </urlset>
